@@ -1,4 +1,4 @@
-## Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks
+## Semi-Supervised Sequence Modeling for Elastic Impedance Inversion
 
 Codes and data for a manuscript submitted to Interpretation Journal, Dec 2018. 
 
