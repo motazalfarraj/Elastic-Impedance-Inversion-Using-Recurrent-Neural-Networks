@@ -1,9 +1,0 @@
-bruges==0.3.4
-matplotlib==3.1.1
-numpy==1.17.0
-pyparsing==2.4.1.1
-python-dateutil==2.8.0
-torch==1.1.0
-torchvision==0.3.0
-tqdm==4.33.0
-wget==3.2
