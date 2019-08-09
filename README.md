@@ -10,6 +10,26 @@ M. Alfarraj, and G. AlRegib, "**Semi-Supervised Sequence Modeling for Elastic Im
 ## Abstract
 Recent applications of machine learning algorithms in the seismic domain have shown great potential in different areas such as seismic inversion and interpretation. However, such algorithms rarely enforce geophysical constraints — the lack of which might lead to undesirable results. To overcome this issue, we have developed a semisupervised sequence modeling framework based on recurrent neural networks for elastic impedance inversion from multiangle seismic data. Specifically, seismic traces and elastic impedance (EI) traces are modeled as a time series. Then, a neural-network-based inversion model comprising convolutional and recurrent neural layers is used to invert seismic data for EI. The proposed workflow uses well-log data to guide the inversion. In addition, it uses seismic forward modeling to regularize the training and to serve as a geophysical constraint for the inversion. The proposed workflow achieves an average correlation of 98% between the estimated and target EI using 10 well logs for training on a synthetic data set.
 
+## Sample Results 
+
+#### Estimated EI Section
+Incident Angle (degrees)|Estimated EI|True EI|Absolute Difference|
+|:--:|:--:|:--:|:--:|
+0|![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_inv_0.png)| ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_0.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_diff_0.png)
+10|![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_inv_1.png)| ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_1.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_diff_1.png)
+20|![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_inv_2.png)| ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_2.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_diff_2.png)
+30|![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_inv_3.png)| ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_3.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_diff_3.png)
+
+#### Scatter plots 
+|0 degrees|10 degrees|20 degrees|30 degrees|
+|:--:|:--:|:--:|:--:|
+| ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/Scatter_0.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/Scatter_1.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/Scatter_2.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/Scatter_3.png) 
+
+#### Sample traces 
+|x=3300 meters|x=8500 meters|
+|:--:|:--:|
+| ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_trace_3300m.png) | ![](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/images/EI_trace_8500m.png)
+
 ## Data 
 The data used in this code are from the elastic model of [Marmousi 2](https://library.seg.org/doi/abs/10.1190/1.1817083)
 The synthesis of the seismic data is described in the [paper](https://library.seg.org/doi/abs/10.1190/int-2018-0250.1) 
@@ -76,4 +96,4 @@ If you have found our code and data useful, we kindly ask you to cite our work
 
 ```
 
-The paper is available in the SEG Digital Library: [https://library.seg.org/doi/abs/10.1190/int-2018-0250.1)](https://library.seg.org/doi/10.1190/INT-2018-0249.1)
+The paper is available in the SEG Digital Library: [https://library.seg.org/doi/abs/10.1190/int-2018-0250.1](https://library.seg.org/doi/10.1190/INT-2018-0249.1)
