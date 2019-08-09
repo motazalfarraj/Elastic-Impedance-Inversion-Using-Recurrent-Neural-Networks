@@ -20,7 +20,7 @@ Alternatively, you can download the data file manually at this [link](https://ww
 
 Both elastic impedance and seismic are saved in the same `data.npy` file.
 
-### Running the code
+## Running the code
 
 ### Requirements: 
 These are the python libraries that are needed to run the code. Newer version should work fine as well. 
