@@ -57,12 +57,6 @@ tqdm==4.33.0
 wget==3.2
 ```
 
-Execute this command to install the required libraries, 
-`pip install -r requirements.txt`
-
-or install them manually from [requirements.txt](https://github.com/olivesgatech/Elastic-Impedance-Inversion-Using-Recurrent-Neural-Networks/blob/master/requirements.txt) file. 
-
-
 ### Training and testing
 
 To train the model using the default parameters (as reported in the paper), and test it on the full Marmousi 2 model, run the following command: 
