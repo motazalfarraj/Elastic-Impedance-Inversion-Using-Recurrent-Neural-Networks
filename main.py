@@ -252,12 +252,7 @@ def test(args):
 if __name__ == '__main__':
     ## Arguments and parameters
     parser = argparse.ArgumentParser()
-    parser.add_argument('-dt', type=float, default=1e-3, help='Time resolution in seconds')
-    parser.add_argument('-wavelet_duration',  type=float, default=0.2, help='wavelet duration in seconds')
-    parser.add_argument('-f', default="5, 10, 60, 80", help="Frequency of wavelet. if multiple frequencies use , to seperate them with no spaces, e.g., -f \"5,10,60,80\"", type=lambda x: np.squeeze(np.array(x.split(",")).astype(float)))
     parser.add_argument('-num_train_wells', type=int, default=10, help="Number of EI traces from the model to be used for validation")
-    parser.add_argument('-resolution_ratio', type=int, default=6, action="store",help="resolution mismtach between seismic and EI")
-    parser.add_argument('-incident_angles', type=float, default=np.arange(0, 30+ 1, 10), help="Incident angles of the input seismic and EI")
     parser.add_argument('-max_epoch', type=int, default=500, help="maximum number of training epochs")
     parser.add_argument('-batch_size', type=int, default=40,help="Batch size for training")
     parser.add_argument('-alpha', type=float, default=1, help="weight of property loss term")
@@ -266,6 +261,12 @@ if __name__ == '__main__':
     parser.add_argument('-session_name', type=str, action="store", default=datetime.now().strftime('%b%d_%H%M%S'),help="name of the session to be ised in saving the model")
     parser.add_argument('-nonlinearity', action="store", type=str, default="tanh",help="Type of nonlinearity for the CNN [tanh, relu]", choices=["tanh","relu"])
 
+    ## Do not change these values unless you use the code on a different data and edit the code accordingly 
+    parser.add_argument('-dt', type=float, default=1e-3, help='Time resolution in seconds')
+    parser.add_argument('-wavelet_duration',  type=float, default=0.2, help='wavelet duration in seconds')
+    parser.add_argument('-f', default="5, 10, 60, 80", help="Frequency of wavelet. if multiple frequencies use , to seperate them with no spaces, e.g., -f \"5,10,60,80\"", type=lambda x: np.squeeze(np.array(x.split(",")).astype(float)))
+    parser.add_argument('-resolution_ratio', type=int, default=6, action="store",help="resolution mismtach between seismic and EI")
+    parser.add_argument('-incident_angles', type=float, default=np.arange(0, 30+ 1, 10), help="Incident angles of the input seismic and EI")
     args = parser.parse_args()
 
     if args.test_checkpoint is not None:
