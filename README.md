@@ -96,5 +96,3 @@ If you have found our code and data useful, we kindly ask you to cite our work
 }
 
 ```
-
-The paper is available in the SEG Digital Library: [https://library.seg.org/doi/abs/10.1190/int-2018-0250.1](https://library.seg.org/doi/10.1190/INT-2018-0249.1)
