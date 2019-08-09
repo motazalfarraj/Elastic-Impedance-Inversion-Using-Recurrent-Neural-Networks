@@ -56,6 +56,7 @@ torchvision==0.3.0
 tqdm==4.33.0
 wget==3.2
 ```
+Note: This code is built using [PyTorch](https://pytorch.org/) with GPU support. Follow the instructions on PyTorch's website to install it properly. The code can also be run without GPU, but it will be much slower. 
 
 ### Training and testing
 
