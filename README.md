@@ -5,7 +5,7 @@ Codes and data for a manuscript publoshed in Interpretation Journal, Aug 2019.
 
 This repository contains the codes for the paper: 
 
-M. Alfarraj, and G. AlRegib, "**Semi-Supervised Sequence Modeling for Elastic Impedance Inversion**," in *Interpretation*, Aug. 2019.[[SEG Digital Library]](https://library.seg.org/doi/abs/10.1190/int-2018-0250.1)
+M. Alfarraj, and G. AlRegib, "**Semi-Supervised Sequence Modeling for Elastic Impedance Inversion**," in *Interpretation*, Aug. 2019. [[SEG Digital Library]](https://library.seg.org/doi/abs/10.1190/int-2018-0250.1)
 
 
 ## Abstract
