@@ -7,7 +7,7 @@ class inverse_model(nn.Module):
         super(inverse_model, self).__init__()
         self.in_channels = in_channels
         self.resolution_ratio = resolution_ratio #vertical scale mismtach between seismic and EI
-        self.activation =  nn.ReLU() if nonlinearity=="tanh" else nn.Tanh()
+        self.activation =  nn.ReLU() if nonlinearity=="relu" else nn.Tanh()
 
         self.cnn1 = nn.Sequential(nn.Conv1d(in_channels=self.in_channels,
                                            out_channels=8,

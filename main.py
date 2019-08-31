@@ -1,7 +1,6 @@
 import argparse
 import numpy as np
 import torch
-from tensorboardX import SummaryWriter
 from bruges.filters import wavelets
 from os.path import isdir
 import os
@@ -182,7 +181,7 @@ def test(args):
     test_property_corr = []
     test_property_r2 = []
     inverse_net.eval()
-    print("Testing the model")
+    print("\nTesting the model\n")
 
     with torch.no_grad():
         test_loss = []
