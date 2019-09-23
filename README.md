@@ -1,7 +1,7 @@
 # Semi-Supervised Sequence Modeling for Elastic Impedance Inversion
 [Motaz Alfarraj](http://www.motaz.me), and [Ghassan AlRegib](http://www.ghassanalregib.info)
 
-Codes and data for a manuscript publoshed in Interpretation Journal, Aug 2019. 
+Codes and data for a manuscript published in Interpretation Journal, Aug 2019. 
 
 This repository contains the codes for the paper: 
 
