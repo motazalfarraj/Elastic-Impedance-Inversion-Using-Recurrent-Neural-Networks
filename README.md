@@ -5,8 +5,8 @@ Codes and data for a manuscript published in Interpretation Journal, Aug 2019.
 
 This repository contains the codes for the paper: 
 
-M. Alfarraj, and G. AlRegib, "**Semi-Supervised Sequence Modeling for Elastic Impedance Inversion**," in *Interpretation*, Aug. 2019. [[SEG Digital Library]](https://library.seg.org/doi/abs/10.1190/int-2018-0250.1)
-
+M. Alfarraj, and G. AlRegib, "**Semi-Supervised Sequence Modeling for Elastic Impedance Inversion**," in *Interpretation*, Aug. 2019. [[ArXiv]](https://arxiv.org/pdf/1908.07849.pdf)
+[[SEG Digital Library]](https://library.seg.org/doi/abs/10.1190/int-2018-0250.1)
 
 ## Abstract
 Recent applications of machine learning algorithms in the seismic domain have shown great potential in different areas such as seismic inversion and interpretation. However, such algorithms rarely enforce geophysical constraints — the lack of which might lead to undesirable results. To overcome this issue, we have developed a semisupervised sequence modeling framework based on recurrent neural networks for elastic impedance inversion from multiangle seismic data. Specifically, seismic traces and elastic impedance (EI) traces are modeled as a time series. Then, a neural-network-based inversion model comprising convolutional and recurrent neural layers is used to invert seismic data for EI. The proposed workflow uses well-log data to guide the inversion. In addition, it uses seismic forward modeling to regularize the training and to serve as a geophysical constraint for the inversion. The proposed workflow achieves an average correlation of 98% between the estimated and target EI using 10 well logs for training on a synthetic data set.
