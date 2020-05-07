@@ -37,7 +37,7 @@ The synthesis of the seismic data is described in the [paper](https://library.se
 
 The data file should be downloaded automatically when the code is run.
 
-Alternatively, you can download the data file manually at this [link](https://www.dropbox.com/s/66u2hbbrvc15lyp/data.npy?raw=1) and place it in the same folder as main.py file 
+Alternatively, you can download the data file manually at this [link](https://www.dropbox.com/s/qdbepx2jzz9jd9l/data.npy?raw=1) and place it in the same folder as main.py file 
 
 Both elastic impedance and seismic are saved in the same `data.npy` file.
 
