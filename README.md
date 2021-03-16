@@ -35,9 +35,11 @@ Incident Angle (degrees)|Estimated EI|True EI|Absolute Difference|
 The data used in this code are from the elastic model of [Marmousi 2](https://library.seg.org/doi/abs/10.1190/1.1817083)
 The synthesis of the seismic data is described in the [paper](https://library.seg.org/doi/abs/10.1190/int-2018-0250.1) 
 
+dl=0
+
 The data file should be downloaded automatically when the code is run.
 
-Alternatively, you can download the data file manually at this [link](https://www.dropbox.com/s/qdbepx2jzz9jd9l/data.npy?raw=1) and place it in the same folder as main.py file 
+Alternatively, you can download the data file manually at this [link](https://www.dropbox.com/s/wr7wk30xqxonc6x/data.npy?raw=1) and place it in the same folder as main.py file 
 
 Both elastic impedance and seismic are saved in the same `data.npy` file.
 
