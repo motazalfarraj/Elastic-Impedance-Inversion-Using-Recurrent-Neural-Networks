@@ -33,7 +33,7 @@ def get_data(args, test=False):
 
     except FileNotFoundError:
         print("Data file not found. Downloading the data..")
-        url= "https://www.dropbox.com/s/wr7wk30xqxonc6x/data.npy?raw=1"
+        url= "https://www.dropbox.com/s/qdbepx2jzz9jd9l/data.npy?raw=1"
         wget.download(url,"./")
 
     assert hashlib.md5(open("./data.npy", "rb").read()).hexdigest()=="1fc229e7b7042829b8a834e6850ec9e5", "Data file checksum did not match. Redownload the data file"
