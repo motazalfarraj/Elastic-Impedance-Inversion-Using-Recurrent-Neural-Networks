@@ -39,7 +39,7 @@ dl=0
 
 The data file should be downloaded automatically when the code is run.
 
-Alternatively, you can download the data file manually at this [link](https://www.dropbox.com/s/wr7wk30xqxonc6x/data.npy?raw=1) and place it in the same folder as main.py file 
+Alternatively, you can download the data file manually at this [link](https://www.dropbox.com/s/qdbepx2jzz9jd9l/data.npy?raw=1) and place it in the same folder as main.py file 
 
 Both elastic impedance and seismic are saved in the same `data.npy` file.
 
